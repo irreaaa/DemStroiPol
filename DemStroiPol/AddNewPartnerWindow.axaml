@@ -1,0 +1,90 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="DemStroiPol.AddNewPartnerWindow"
+        Title="AddNewPartnerWindow">
+	<Window.Styles>
+		<Style Selector="StackPanel > StackPanel > Button">
+			<Setter Property="Background" Value="#67BA80" />
+			<Setter Property="Foreground" Value="#ffffff" />
+			<Setter Property="FontFamily" Value="Segoe UI" />
+			<Setter Property="FontSize" Value="17" />
+		</Style>
+		<Style Selector="StackPanel > StackPanel > Button:pointerover  /template/ ContentPresenter">
+			<Setter Property="Background" Value="#7bd197" />
+			<Setter Property="Foreground" Value="#ffffff" />
+			<Setter Property="FontFamily" Value="Segoe UI" />
+			<Setter Property="FontSize" Value="17" />
+		</Style>
+		<Style Selector="StackPanel > StackPanel > TextBlock">
+			<Setter Property="Foreground" Value="#67BA80" />
+			<Setter Property="FontFamily" Value="Segoe UI" />
+			<Setter Property="FontWeight" Value="Bold" />
+			<Setter Property="FontSize" Value="15" />
+			<Setter Property="Margin" Value="5 25 5 5" />
+		</Style>
+	</Window.Styles>
+	<Grid>
+		<StackPanel>
+			<StackPanel Orientation="Vertical" Margin="20 10 0 0" HorizontalAlignment="Center" >
+				<TextBlock Text="ДОБАВИТЬ НОВОГО ПАРТНЕРА" FontFamily="Segoe UI" Foreground="#67BA80" FontSize="25" FontWeight="Bold" />
+			</StackPanel>
+			<StackPanel Margin="25 0 25 0">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch">
+					<StackPanel Orientation="Vertical">
+						<TextBlock Text="Тип" />
+						<ComboBox>
+							<sys:String>1</sys:String>
+							<sys:String>2</sys:String>
+							<sys:String>3</sys:String>
+							<sys:String>4</sys:String>
+						</ComboBox>
+					</StackPanel>
+					<StackPanel Orientation="Vertical" Margin="20 0" HorizontalAlignment="Stretch">
+						<TextBlock Text="Название компании" FontWeight="Bold" />
+						<TextBox Watermark="введите название копмании партнера..."  />
+					</StackPanel>
+				</StackPanel>
+				<TextBlock Text="Юридический адрес" />
+				<TextBox Watermark="введите юридический адрес партнера..." />
+				<TextBlock Text="ФИО Директора" />
+				<TextBox Watermark="фио директора партнера..." />
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch">
+					<StackPanel Orientation="Vertical"  Margin="0 0 10 0" HorizontalAlignment="Stretch">
+						<TextBlock Text="ИНН" />
+						<TextBox Watermark="введите инн партнера..." HorizontalAlignment="Stretch"/>
+					</StackPanel>
+					<StackPanel Orientation="Vertical"  Margin="0 0 10 0">
+						<TextBlock Text="Email " />
+						<TextBox Watermark="введите инн партнера..."/>
+					</StackPanel>
+					<StackPanel Orientation="Vertical"  Margin="0 0 10 0">
+						<TextBlock Text="Телефон" />
+						<TextBox Watermark="введите инн партнера..."/>
+					</StackPanel>
+					<StackPanel Orientation="Vertical"  Margin="0 0 10 0">
+						<TextBlock Text="Рейтинг" />
+						<ComboBox>
+							<sys:String>1</sys:String>
+							<sys:String>2</sys:String>
+							<sys:String>3</sys:String>
+							<sys:String>4</sys:String>
+							<sys:String>5</sys:String>
+							<sys:String>6</sys:String>
+							<sys:String>7</sys:String>
+							<sys:String>8</sys:String>
+							<sys:String>9</sys:String>
+							<sys:String>10</sys:String>
+						</ComboBox>
+					</StackPanel>
+				</StackPanel>
+			</StackPanel>
+			<StackPanel Margin="25">
+				<Button Content="Назад" Click="Return_Click"/>
+			</StackPanel>
+		</StackPanel>
+	</Grid>
+</Window>

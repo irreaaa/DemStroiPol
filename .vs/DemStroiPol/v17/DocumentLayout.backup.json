@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|c:\\users\\irisp\\source\\repos\\demstroipol\\demstroipol\\addnewpartnerwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|solutionrelative:demstroipol\\addnewpartnerwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|c:\\users\\irisp\\source\\repos\\demstroipol\\demstroipol\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|solutionrelative:demstroipol\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|c:\\users\\irisp\\source\\repos\\demstroipol\\demstroipol\\addnewpartnerwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|solutionrelative:demstroipol\\addnewpartnerwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|c:\\users\\irisp\\source\\repos\\demstroipol\\demstroipol\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|solutionrelative:demstroipol\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddNewPartnerWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\DemStroiPol\\AddNewPartnerWindow.axaml",
+              "RelativeDocumentMoniker": "DemStroiPol\\AddNewPartnerWindow.axaml",
+              "ToolTip": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\DemStroiPol\\AddNewPartnerWindow.axaml",
+              "RelativeToolTip": "DemStroiPol\\AddNewPartnerWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-27T18:02:00.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddNewPartnerWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\DemStroiPol\\AddNewPartnerWindow.axaml.cs",
+              "RelativeDocumentMoniker": "DemStroiPol\\AddNewPartnerWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\DemStroiPol\\AddNewPartnerWindow.axaml.cs",
+              "RelativeToolTip": "DemStroiPol\\AddNewPartnerWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T18:01:59.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\DemStroiPol\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "DemStroiPol\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\DemStroiPol\\MainWindow.axaml",
+              "RelativeToolTip": "DemStroiPol\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-27T16:05:30.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\DemStroiPol\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "DemStroiPol\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\DemStroiPol\\MainWindow.axaml.cs",
+              "RelativeToolTip": "DemStroiPol\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T16:05:24.108Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
