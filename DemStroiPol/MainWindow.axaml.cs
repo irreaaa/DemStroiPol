@@ -17,4 +17,11 @@ public partial class MainWindow : Window
         anp.Show();
         this.Close();
     }
+
+    private void EditPartner_Click(object? sender, RoutedEventArgs e)
+    {
+        EditPartnerWindow epw = new EditPartnerWindow();
+        epw.Show();
+        this.Close();
+    }
 }

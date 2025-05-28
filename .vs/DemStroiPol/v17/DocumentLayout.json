@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\",
+  "WorkspaceRootPath": "C:\\Users\\blockchain\\source\\repos\\DemStroiPol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|c:\\users\\irisp\\source\\repos\\demstroipol\\demstroipol\\addnewpartnerwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|c:\\users\\blockchain\\source\\repos\\demstroipol\\demstroipol\\addnewpartnerwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|solutionrelative:demstroipol\\addnewpartnerwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|c:\\users\\irisp\\source\\repos\\demstroipol\\demstroipol\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|c:\\users\\blockchain\\source\\repos\\demstroipol\\demstroipol\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|solutionrelative:demstroipol\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|c:\\users\\irisp\\source\\repos\\demstroipol\\demstroipol\\addnewpartnerwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|c:\\users\\blockchain\\source\\repos\\demstroipol\\demstroipol\\editpartnerwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|solutionrelative:demstroipol\\editpartnerwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|c:\\users\\blockchain\\source\\repos\\demstroipol\\demstroipol\\addnewpartnerwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|solutionrelative:demstroipol\\addnewpartnerwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|c:\\users\\irisp\\source\\repos\\demstroipol\\demstroipol\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|c:\\users\\blockchain\\source\\repos\\demstroipol\\demstroipol\\editpartnerwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|solutionrelative:demstroipol\\editpartnerwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|c:\\users\\blockchain\\source\\repos\\demstroipol\\demstroipol\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|solutionrelative:demstroipol\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|c:\\users\\blockchain\\source\\repos\\demstroipol\\demstroipol\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1A903E8-52CF-44D2-93C7-44A01AEE1FF1}|DemStroiPol\\DemStroiPol.csproj|solutionrelative:demstroipol\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,11 +50,49 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\DemStroiPol\\DemStroiPol\\Helper.cs",
+              "RelativeDocumentMoniker": "DemStroiPol\\Helper.cs",
+              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\DemStroiPol\\DemStroiPol\\Helper.cs",
+              "RelativeToolTip": "DemStroiPol\\Helper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:02:55.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditPartnerWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\DemStroiPol\\DemStroiPol\\EditPartnerWindow.axaml",
+              "RelativeDocumentMoniker": "DemStroiPol\\EditPartnerWindow.axaml",
+              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\DemStroiPol\\DemStroiPol\\EditPartnerWindow.axaml",
+              "RelativeToolTip": "DemStroiPol\\EditPartnerWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T06:37:40.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditPartnerWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\DemStroiPol\\DemStroiPol\\EditPartnerWindow.axaml.cs",
+              "RelativeDocumentMoniker": "DemStroiPol\\EditPartnerWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\DemStroiPol\\DemStroiPol\\EditPartnerWindow.axaml.cs",
+              "RelativeToolTip": "DemStroiPol\\EditPartnerWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T06:37:38.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AddNewPartnerWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\DemStroiPol\\AddNewPartnerWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\DemStroiPol\\DemStroiPol\\AddNewPartnerWindow.axaml",
               "RelativeDocumentMoniker": "DemStroiPol\\AddNewPartnerWindow.axaml",
-              "ToolTip": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\DemStroiPol\\AddNewPartnerWindow.axaml",
+              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\DemStroiPol\\DemStroiPol\\AddNewPartnerWindow.axaml",
               "RelativeToolTip": "DemStroiPol\\AddNewPartnerWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-27T18:02:00.261Z",
@@ -50,13 +100,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AddNewPartnerWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\DemStroiPol\\AddNewPartnerWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\DemStroiPol\\DemStroiPol\\AddNewPartnerWindow.axaml.cs",
               "RelativeDocumentMoniker": "DemStroiPol\\AddNewPartnerWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\DemStroiPol\\AddNewPartnerWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\DemStroiPol\\DemStroiPol\\AddNewPartnerWindow.axaml.cs",
               "RelativeToolTip": "DemStroiPol\\AddNewPartnerWindow.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T18:01:59.907Z",
               "EditorCaption": ""
@@ -65,9 +115,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\DemStroiPol\\MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\DemStroiPol\\DemStroiPol\\MainWindow.axaml",
               "RelativeDocumentMoniker": "DemStroiPol\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\DemStroiPol\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\DemStroiPol\\DemStroiPol\\MainWindow.axaml",
               "RelativeToolTip": "DemStroiPol\\MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-27T16:05:30.521Z",
@@ -75,13 +125,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\DemStroiPol\\MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\DemStroiPol\\DemStroiPol\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "DemStroiPol\\MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\irisp\\source\\repos\\DemStroiPol\\DemStroiPol\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\DemStroiPol\\DemStroiPol\\MainWindow.axaml.cs",
               "RelativeToolTip": "DemStroiPol\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T16:05:24.108Z",
               "EditorCaption": ""

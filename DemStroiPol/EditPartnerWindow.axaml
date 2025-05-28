@@ -3,10 +3,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 		xmlns:sys="clr-namespace:System;assembly=mscorlib"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="1000"
-        x:Class="DemStroiPol.AddNewPartnerWindow"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="700"
 		WindowStartupLocation="CenterScreen"
-        Title="AddNewPartnerWindow">
+        x:Class="DemStroiPol.EditPartnerWindow"
+        Title="EditPartnerWindow">
 	<Window.Styles>
 		<Style Selector="StackPanel > StackPanel > Button">
 			<Setter Property="Background" Value="#67BA80" />
@@ -32,14 +32,12 @@
 		</Style>
 	</Window.Styles>
 	<Grid>
-		<StackPanel Width="750" Height="700" Background="#F4E8D3">
-			<StackPanel Margin="25 25 0 0">
+		<StackPanel Width="750" Height="670" Background="#F4E8D3">
+			<StackPanel  Orientation="Vertical" Margin="25 25 25 0">
 				<Button Content="Назад" Click="Return_Click" VerticalContentAlignment="Center" Width="35" Height="35">
 					<Image Source="return.png" Height="15" />
 				</Button>
-			</StackPanel>
-				<TextBlock Text="ДОБАВИТЬ НОВОГО ПАРТНЕРА" FontFamily="Segoe UI" Foreground="#67BA80" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" />
-			<StackPanel Margin="25 0 25 0">
+				<TextBlock Text="РЕДАКТИРОВАНИЕ ПАРТНЕРА" FontWeight="Bold" Foreground="#67BA80" FontFamily="Segoe Ui" FontSize="22" HorizontalAlignment="Center" />
 				<StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch">
 					<StackPanel Orientation="Vertical">
 						<TextBlock Text="Тип" />
@@ -74,7 +72,7 @@
 				<StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch">
 					<StackPanel Orientation="Vertical" Margin="0 0 15 0">
 						<TextBlock Text="ФИО Директора" />
-						<TextBox Watermark="фио директора партнера..." Width="400"/>
+						<TextBox Watermark="фио директора партнера..." Width="450"/>
 					</StackPanel>
 					<StackPanel Orientation="Vertical"  Margin="0 0 15 0">
 						<TextBlock Text="Телефон" />
@@ -82,11 +80,7 @@
 					</StackPanel>
 					<StackPanel Orientation="Vertical"  Margin="0 0 15 0">
 						<TextBlock Text="Рейтинг" />
-						<StackPanel Orientation="Horizontal" >
-							<TextBlock Text="{Binding ElementName=slider, Path=Value, StringFormat={}{0:F1}}" FontSize="22" HorizontalAlignment="Center" Width="45" />
-							<Slider x:Name="slider" Minimum="0" Maximum="10" SmallChange="0.1" LargeChange="1" Orientation="Vertical" Height="125" Width="35" Background="#afc9b8" Foreground="#67BA80"/>
-						</StackPanel>
-						<!--<ComboBox>
+						<ComboBox>
 							<sys:String>1</sys:String>
 							<sys:String>2</sys:String>
 							<sys:String>3</sys:String>
@@ -97,10 +91,10 @@
 							<sys:String>8</sys:String>
 							<sys:String>9</sys:String>
 							<sys:String>10</sys:String>
-						</ComboBox>-->
+						</ComboBox>
 					</StackPanel>
 				</StackPanel>
-				<Expander Width="700" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Margin="0 20 0 5" Background="#F4E8D3">
+				<Expander Width="700" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Margin="0 20" Background="#F4E8D3">
 					<Expander.Header>
 						Дополнительные параметры
 					</Expander.Header>
@@ -121,7 +115,8 @@
 						</StackPanel>
 					</StackPanel>
 				</Expander>
-				<StackPanel Margin="0 5 0 0" HorizontalAlignment="Center">
+				<DataGrid Name="AddLogo" DragDrop.AllowDrop="True" />
+				<StackPanel Margin="0 25 0 0" HorizontalAlignment="Center">
 					<Button Content="Добавить нового партнера" />
 				</StackPanel>
 			</StackPanel>

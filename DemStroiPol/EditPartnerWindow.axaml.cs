@@ -1,4 +1,3 @@
-using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Media.Imaging;
@@ -7,9 +6,9 @@ using System.IO;
 
 namespace DemStroiPol;
 
-public partial class AddNewPartnerWindow : Window
+public partial class EditPartnerWindow : Window
 {
-    public AddNewPartnerWindow()
+    public EditPartnerWindow()
     {
         InitializeComponent();
     }
@@ -34,7 +33,8 @@ public partial class AddNewPartnerWindow : Window
             File.Copy(filename, AppDomain.CurrentDomain.BaseDirectory + "../../../", true);
             Bitmap pib = new Bitmap(path);
 
-        } catch (Exception ex)
+        }
+        catch (Exception ex)
         {
             Console.WriteLine(ex.ToString());
         }

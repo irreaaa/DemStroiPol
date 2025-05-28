@@ -3,37 +3,42 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+		WindowStartupLocation="CenterScreen"
         x:Class="DemStroiPol.MainWindow"
+		x:CompileBindings="False"
         Title="DemStroiPol">
 	<Window.Styles>
 		<Style Selector="StackPanel > StackPanel > Button">
 			<Setter Property="Background" Value="#67BA80" />
 			<Setter Property="Foreground" Value="#ffffff" />
 			<Setter Property="FontFamily" Value="Segoe UI" />
-			<Setter Property="FontSize" Value="17" />
+			<Setter Property="FontSize" Value="20" />
+			<Setter Property="CornerRadius" Value="7" />
+			<Setter Property="Width" Value="300" />
+			<Setter Property="Height" Value="45" />
+			<Setter Property="VerticalContentAlignment" Value="Center" />
+			<Setter Property="HorizontalContentAlignment" Value="Center" />
 		</Style>
 		<Style Selector="StackPanel > StackPanel > Button:pointerover  /template/ ContentPresenter">
 			<Setter Property="Background" Value="#7bd197" />
 			<Setter Property="Foreground" Value="#ffffff" />
-			<Setter Property="FontFamily" Value="Segoe UI" />
-			<Setter Property="FontSize" Value="17" />
 		</Style>
 	</Window.Styles>
-	<Grid>
+	<Grid RowDefinitions="*, auto">
 		<Border MaxHeight="700" MaxWidth="1970">
 			<ScrollViewer VerticalScrollBarVisibility="Auto">
 				<StackPanel Orientation="Vertical" Margin="10">
-					<TextBlock Text="ПАРТНЕРЫ: " FontFamily="SegoeUi" Foreground="#67BA80" FontSize="25" />
+					<TextBlock Text="ПАРТНЕРЫ: " FontFamily="Segoe Ui" Foreground="#67BA80" FontSize="25" HorizontalAlignment="Center" FontWeight="Bold" Margin="10" />
 					<ListBox SelectionMode="Single" FontFamily="Segoe Ui">
 						<!--<ListBox.ItemTemplate>
 							<DataTemplate>-->
 						<ListBox.Items>
-							<Border BorderBrush="Gray" BorderThickness="1" Padding="5" Margin="5">
+							<Border BorderBrush="Gray" BorderThickness="1" Padding="5" Margin="5" Width="700">
 								<StackPanel Orientation="Vertical" Margin="20	5">
 									<StackPanel Orientation="Horizontal">
 										<TextBlock Text="Тип" FontSize="20" />
-										<TextBlock Text=" | " FontSize="20" />
-										<TextBlock Text="Наименование партнера" FontSize="20"/>
+										<TextBlock Text="  |  " FontSize="20" />
+										<TextBlock Text="Наименование партнера" FontSize="20" Width="550"/>
 										<TextBlock Text="10%" HorizontalAlignment="Right" FontSize="20"/>
 									</StackPanel>
 									<TextBlock Text="Директор" />
@@ -45,8 +50,9 @@
 							<!--</DataTemplate>
 						</ListBox.ItemTemplate>-->
 					</ListBox>
-					<StackPanel Margin="0 15">
+					<StackPanel Margin="0 15" HorizontalAlignment="Center">
 						<Button Content="Добавить партнера" Click="AddNewPartner_Click" />
+						<Button Content="edit партнера" Click="EditPartner_Click" />
 					</StackPanel>
 				</StackPanel>
 			</ScrollViewer>

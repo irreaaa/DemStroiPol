@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemStroiPol")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+163a41583ddc0807dd6b506d15a18375dc9c1579")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemStroiPol")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemStroiPol")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
